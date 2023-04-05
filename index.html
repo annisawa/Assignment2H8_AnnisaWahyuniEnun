@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Assigment-2</title>
+</head>
+<body class="bg-light">
+    <!--Header Section-->
+    <header>
+        <!--Navbar Section-->
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm shadow-sm navbar-light bg-white mb-5">
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PRODUCT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">INVENTORY</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Main Section-->
+    <main>
+        <!--Profile Section-->
+        <div id="profile-section">
+            <div class="container bg-white mb-4 shadow-sm rounded-2">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="img/icon.png" width="180">
+                    </div>
+                    <div class="col-5 py-5 border-end">
+                        <h4 id="name">Nama Anda</h4>
+                        <span id="role" class="text-muted">Role</span>
+                        <div class="contact mt-4">
+                            <button id="edit-btn" class="btn btn-primary">Edit</button>
+                            <button id="resume-btn" class="btn btn-outline-success">Resume</button>
+                        </div>
+                    </div>
+                    <div class="col-5 py-5 px-5">
+                        <table>
+                            <tr class="px-5">
+                                <td width="130" class="h6">Availibility</td>
+                                <td id="availability" class="text-muted"></td>
+                            </tr>
+                            <tr>
+                                <td width="130" class="h6">Age</td>
+                                <td  id="age" class="text-muted"></td>
+                            </tr>
+                            <tr>
+                                <td width="130" class="h6">Location</td>
+                                <td  id="location" class="text-muted"></td>
+                            </tr>
+                            <tr>
+                                <td width="130" class="h6">Experiences</td>
+                                <td  id="experience" class="text-muted"></td>
+                            </tr>
+                            <tr>
+                                <td width="130" class="h6">Email</td>
+                                <td  id="email" class="text-muted"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Form Section-->
+        <div id="form-section">    
+            <div class="container bg-white  shadow-sm rounded-3 mb-4 px-4 py-4">
+                <form>
+                    <div class="form-group">
+                      <label for="inputName" class="form-label h6">Name</label>
+                      <input type="text" class="form-control" id="inputName">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputRole" class="form-label h6">Role</label>
+                      <input type="text" class="form-control" id="inputRole">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAvailability" class="form-label h6">Availability</label>
+                      <input type="text" class="form-control" id="inputAvailability">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAge" class="form-label h6">Age</label>
+                      <input type="text" class="form-control" id="inputAge">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputLocation" class="form-label h6">Location</label>
+                      <input type="text" class="form-control" id="inputLocation">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputExperience" class="form-label h6">Year Experience</label>
+                      <input type="text" class="form-control" id="inputExperience">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputEmail" class="form-label h6">Email</label>
+                      <input type="email" class="form-control" id="inputEmail">
+                    </div>
+                    <button type="button"  id="submit-btn" class="btn shadow-sm btn-success w-100 mt-3">SUBMIT</button>
+                  </form>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
